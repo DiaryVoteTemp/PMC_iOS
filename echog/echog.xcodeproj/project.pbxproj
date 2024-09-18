@@ -15,6 +15,9 @@
 		920470812C9A762200D547FB /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470802C9A762200D547FB /* Font.swift */; };
 		920470832C9A768200D547FB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470822C9A768200D547FB /* UIFont+.swift */; };
 		920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470842C9A76F700D547FB /* UIFontMetrics+.swift */; };
+		9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204708A2C9A90C900D547FB /* MainButton.swift */; };
+		9204708E2C9A93B300D547FB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708D2C9A93B300D547FB /* SnapKit */; };
+		920470902C9A93B300D547FB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708F2C9A93B300D547FB /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,7 @@
 		920470842C9A76F700D547FB /* UIFontMetrics+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontMetrics+.swift"; sourceTree = "<group>"; };
 		920470862C9A78ED00D547FB /* SB-Aggro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SB-Aggro-Medium.otf"; sourceTree = "<group>"; };
 		920470872C9A7A7300D547FB /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		9204708A2C9A90C900D547FB /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9204708E2C9A93B300D547FB /* SnapKit in Frameworks */,
+				920470902C9A93B300D547FB /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 		9204707C2C9A75DD00D547FB /* Design System */ = {
 			isa = PBXGroup;
 			children = (
+				920470882C9A909A00D547FB /* Compoment */,
 				9204707D2C9A75F000D547FB /* Font */,
 			);
 			path = "Design System";
@@ -105,6 +112,22 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		920470882C9A909A00D547FB /* Compoment */ = {
+			isa = PBXGroup;
+			children = (
+				920470892C9A90AD00D547FB /* Button */,
+			);
+			path = Compoment;
+			sourceTree = "<group>";
+		};
+		920470892C9A90AD00D547FB /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9204708A2C9A90C900D547FB /* MainButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +144,10 @@
 			dependencies = (
 			);
 			name = echog;
+			packageProductDependencies = (
+				9204708D2C9A93B300D547FB /* SnapKit */,
+				9204708F2C9A93B300D547FB /* SnapKit-Dynamic */,
+			);
 			productName = echog;
 			productReference = 920470642C9A6FC200D547FB /* echog.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 9204705B2C9A6FC200D547FB;
+			packageReferences = (
+				9204708C2C9A93B300D547FB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 920470652C9A6FC200D547FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +207,7 @@
 			files = (
 				920470812C9A762200D547FB /* Font.swift in Sources */,
 				9204706C2C9A6FC200D547FB /* ViewController.swift in Sources */,
+				9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */,
 				920470832C9A768200D547FB /* UIFont+.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
 				920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */,
@@ -393,6 +424,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9204708C2C9A93B300D547FB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9204708D2C9A93B300D547FB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9204708C2C9A93B300D547FB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		9204708F2C9A93B300D547FB /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9204708C2C9A93B300D547FB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9204705C2C9A6FC200D547FB /* Project object */;
 }
