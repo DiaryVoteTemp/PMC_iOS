@@ -1,40 +1,28 @@
 //
-//  MainButton.swift
+//  TextButton.swift
 //  echog
 //
-//  Created by minsong kim on 9/18/24.
+//  Created by minsong kim on 9/19/24.
 //
 
 import UIKit
 
-class MainButton: UIButton {
+class TextButton: UIButton {
     enum Color {
         case dark
         case light
     }
     
     private var colorMode: Color = .dark
-    
-    override var isEnabled: Bool {
-        didSet {
-            if isEnabled == false {
-                self.backgroundColor = .grayscale40Disabled
-                self.setTitleColor(.grayscale5ButtonText, for: .disabled)
-            } else {
-                changeColor(with: colorMode)
-            }
-        }
-    }
-    
+
     override var isHighlighted: Bool {
         didSet {
             if isHighlighted {
                 switch colorMode {
                 case .dark:
-                    self.setTitleColor(.primary40Echog, for: .highlighted)
+                    self.backgroundColor = .grayscale60
                 case .light:
-                    self.backgroundColor = .primary80Pressed
-                    self.setTitleColor(.primary10, for: .highlighted)
+                    self.backgroundColor = .primary10
                 }
             } else {
                 changeColor(with: colorMode)
@@ -45,7 +33,7 @@ class MainButton: UIButton {
     override init(frame: CGRect = .zero) {
         super.init(frame: frame)
         self.layer.cornerRadius = 10
-        self.titleLabel?.font = .semiboldBody1
+        self.titleLabel?.font = .semiboldCaption2
     }
     
     convenience init(color: Color, title: String) {
@@ -62,11 +50,11 @@ class MainButton: UIButton {
     private func changeColor(with color: Color) {
         switch color {
         case .dark:
-            self.backgroundColor = .black
-            self.setTitleColor(.grayscale5ButtonText, for: .normal)
+            self.backgroundColor = .clear
+            self.setTitleColor(.grayscale60, for: .normal)
         case .light:
-            self.backgroundColor = .primary40Echog
-            self.setTitleColor(.grayscale80ButtonText2, for: .normal)
+            self.backgroundColor = .clear
+            self.setTitleColor(.primary40Echog, for: .normal)
         }
     }
 }
