@@ -10,6 +10,15 @@ import Foundation
 import UIKit
 
 extension UIFont {
+    static func changeFont(with: Font.Name, of: Font.Size) -> UIFont {
+        guard let font = UIFont(name: with.file, size: of.rawValue) else {
+            return .systemFont(ofSize: of.rawValue)
+        }
+        return font
+    }
+}
+
+extension UIFont {
     static var head1: UIFont {
         return UIFontMetrics.customFont(with: .sbAggroMedium, of: ._20, for: .headline)
     }
