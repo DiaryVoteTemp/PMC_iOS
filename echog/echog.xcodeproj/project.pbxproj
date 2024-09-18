@@ -12,6 +12,9 @@
 		9204706C2C9A6FC200D547FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204706B2C9A6FC200D547FB /* ViewController.swift */; };
 		920470712C9A6FC400D547FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920470702C9A6FC400D547FB /* Assets.xcassets */; };
 		920470742C9A6FC400D547FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920470722C9A6FC400D547FB /* LaunchScreen.storyboard */; };
+		920470812C9A762200D547FB /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470802C9A762200D547FB /* Font.swift */; };
+		920470832C9A768200D547FB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470822C9A768200D547FB /* UIFont+.swift */; };
+		920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470842C9A76F700D547FB /* UIFontMetrics+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,13 @@
 		920470702C9A6FC400D547FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920470732C9A6FC400D547FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920470752C9A6FC400D547FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9204707E2C9A760300D547FB /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		9204707F2C9A760F00D547FB /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		920470802C9A762200D547FB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		920470822C9A768200D547FB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		920470842C9A76F700D547FB /* UIFontMetrics+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontMetrics+.swift"; sourceTree = "<group>"; };
+		920470862C9A78ED00D547FB /* SB-Aggro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SB-Aggro-Medium.otf"; sourceTree = "<group>"; };
+		920470872C9A7A7300D547FB /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,37 @@
 				920470752C9A6FC400D547FB /* Info.plist */,
 			);
 			path = echog;
+			sourceTree = "<group>";
+		};
+		9204707B2C9A75D000D547FB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				920470672C9A6FC200D547FB /* AppDelegate.swift */,
+				920470692C9A6FC200D547FB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9204707C2C9A75DD00D547FB /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				9204707D2C9A75F000D547FB /* Font */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		9204707D2C9A75F000D547FB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9204707E2C9A760300D547FB /* Pretendard-SemiBold.otf */,
+				920470872C9A7A7300D547FB /* Pretendard-Regular.otf */,
+				9204707F2C9A760F00D547FB /* Pretendard-Medium.otf */,
+				920470862C9A78ED00D547FB /* SB-Aggro-Medium.otf */,
+				920470802C9A762200D547FB /* Font.swift */,
+				920470822C9A768200D547FB /* UIFont+.swift */,
+				920470842C9A76F700D547FB /* UIFontMetrics+.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920470812C9A762200D547FB /* Font.swift in Sources */,
 				9204706C2C9A6FC200D547FB /* ViewController.swift in Sources */,
+				920470832C9A768200D547FB /* UIFont+.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
+				920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */,
 				9204706A2C9A6FC200D547FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
