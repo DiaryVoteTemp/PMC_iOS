@@ -18,8 +18,8 @@
 		9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204708A2C9A90C900D547FB /* MainButton.swift */; };
 		9204708E2C9A93B300D547FB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708D2C9A93B300D547FB /* SnapKit */; };
 		920470902C9A93B300D547FB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708F2C9A93B300D547FB /* SnapKit-Dynamic */; };
-		9204709B2C9B252A00D547FB /* OTSBAggroM.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9204709A2C9B252A00D547FB /* OTSBAggroM.otf */; };
 		9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204709C2C9B2C2200D547FB /* TextButton.swift */; };
+		920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A42C9BBC6B00D547FB /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +39,7 @@
 		9204708A2C9A90C900D547FB /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		9204709A2C9B252A00D547FB /* OTSBAggroM.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OTSBAggroM.otf; sourceTree = "<group>"; };
 		9204709C2C9B2C2200D547FB /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		920470A42C9BBC6B00D547FB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		9204707C2C9A75DD00D547FB /* Design System */ = {
 			isa = PBXGroup;
 			children = (
+				920470A32C9BBC5B00D547FB /* Extension */,
 				920470882C9A909A00D547FB /* Compoment */,
 				9204707D2C9A75F000D547FB /* Font */,
 			);
@@ -154,6 +156,14 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		920470A32C9BBC5B00D547FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				920470A42C9BBC6B00D547FB /* UIImage+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +250,7 @@
 				9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
 				920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */,
+				920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */,
 				9204706A2C9A6FC200D547FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
