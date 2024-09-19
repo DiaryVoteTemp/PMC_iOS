@@ -18,6 +18,8 @@
 		9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204708A2C9A90C900D547FB /* MainButton.swift */; };
 		9204708E2C9A93B300D547FB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708D2C9A93B300D547FB /* SnapKit */; };
 		920470902C9A93B300D547FB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708F2C9A93B300D547FB /* SnapKit-Dynamic */; };
+		9204709B2C9B252A00D547FB /* OTSBAggroM.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9204709A2C9B252A00D547FB /* OTSBAggroM.otf */; };
+		9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204709C2C9B2C2200D547FB /* TextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +35,10 @@
 		920470802C9A762200D547FB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		920470822C9A768200D547FB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		920470842C9A76F700D547FB /* UIFontMetrics+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontMetrics+.swift"; sourceTree = "<group>"; };
-		920470862C9A78ED00D547FB /* SB-Aggro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SB-Aggro-Medium.otf"; sourceTree = "<group>"; };
 		920470872C9A7A7300D547FB /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		9204708A2C9A90C900D547FB /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		9204709A2C9B252A00D547FB /* OTSBAggroM.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OTSBAggroM.otf; sourceTree = "<group>"; };
+		9204709C2C9B2C2200D547FB /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +109,7 @@
 				9204707E2C9A760300D547FB /* Pretendard-SemiBold.otf */,
 				920470872C9A7A7300D547FB /* Pretendard-Regular.otf */,
 				9204707F2C9A760F00D547FB /* Pretendard-Medium.otf */,
-				920470862C9A78ED00D547FB /* SB-Aggro-Medium.otf */,
+				9204709A2C9B252A00D547FB /* OTSBAggroM.otf */,
 				920470802C9A762200D547FB /* Font.swift */,
 				920470822C9A768200D547FB /* UIFont+.swift */,
 				920470842C9A76F700D547FB /* UIFontMetrics+.swift */,
@@ -126,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9204708A2C9A90C900D547FB /* MainButton.swift */,
+				9204709C2C9B2C2200D547FB /* TextButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -233,6 +237,7 @@
 				9204706C2C9A6FC200D547FB /* ViewController.swift in Sources */,
 				9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */,
 				920470832C9A768200D547FB /* UIFont+.swift in Sources */,
+				9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
 				920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */,
 				9204706A2C9A6FC200D547FB /* SceneDelegate.swift in Sources */,
