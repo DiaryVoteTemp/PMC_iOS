@@ -19,6 +19,8 @@
 		9204708E2C9A93B300D547FB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708D2C9A93B300D547FB /* SnapKit */; };
 		920470902C9A93B300D547FB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9204708F2C9A93B300D547FB /* SnapKit-Dynamic */; };
 		9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204709C2C9B2C2200D547FB /* TextButton.swift */; };
+		9204709F2C9BB5CC00D547FB /* ToastProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204709E2C9BB5CC00D547FB /* ToastProtocol.swift */; };
+		920470A22C9BB92D00D547FB /* ToastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A12C9BB92D00D547FB /* ToastLabel.swift */; };
 		920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A42C9BBC6B00D547FB /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		9204708A2C9A90C900D547FB /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		9204709A2C9B252A00D547FB /* OTSBAggroM.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OTSBAggroM.otf; sourceTree = "<group>"; };
 		9204709C2C9B2C2200D547FB /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		9204709E2C9BB5CC00D547FB /* ToastProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastProtocol.swift; sourceTree = "<group>"; };
+		920470A12C9BB92D00D547FB /* ToastLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastLabel.swift; sourceTree = "<group>"; };
 		920470A42C9BBC6B00D547FB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +126,9 @@
 		920470882C9A909A00D547FB /* Compoment */ = {
 			isa = PBXGroup;
 			children = (
+				920470A02C9BB91B00D547FB /* Label */,
 				920470892C9A90AD00D547FB /* Button */,
+				9204709E2C9BB5CC00D547FB /* ToastProtocol.swift */,
 			);
 			path = Compoment;
 			sourceTree = "<group>";
@@ -156,6 +162,14 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		920470A02C9BB91B00D547FB /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				920470A12C9BB92D00D547FB /* ToastLabel.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 		920470A32C9BBC5B00D547FB /* Extension */ = {
@@ -250,7 +264,9 @@
 				9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
 				920470852C9A76F700D547FB /* UIFontMetrics+.swift in Sources */,
+				9204709F2C9BB5CC00D547FB /* ToastProtocol.swift in Sources */,
 				920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */,
+				920470A22C9BB92D00D547FB /* ToastLabel.swift in Sources */,
 				9204706A2C9A6FC200D547FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
