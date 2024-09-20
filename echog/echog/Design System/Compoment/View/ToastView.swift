@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class ToastLabel: UIView {
+class ToastView: UIView {
     let iconImageView: UIImageView = {
         let view = UIImageView()
         view.contentMode = .scaleAspectFit

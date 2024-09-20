@@ -14,7 +14,7 @@ protocol ToastProtocol where Self: UIViewController {
 
 extension ToastProtocol {
     func showToast(icon: UIImage, message: String) {
-        let toastLabel = ToastLabel(icon: icon, text: message)
+        let toastLabel = ToastView(icon: icon, text: message)
         
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             return
