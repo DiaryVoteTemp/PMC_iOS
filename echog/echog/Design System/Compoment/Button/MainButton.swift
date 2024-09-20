@@ -10,6 +10,7 @@ import UIKit
 class MainButton: UIButton {
     enum Color {
         case dark
+        case gray
         case light
     }
     
@@ -31,6 +32,9 @@ class MainButton: UIButton {
             if isHighlighted {
                 switch colorMode {
                 case .dark:
+                    self.setTitleColor(.primary40Echog, for: .highlighted)
+                case .gray:
+                    self.backgroundColor = .grayscale60
                     self.setTitleColor(.primary40Echog, for: .highlighted)
                 case .light:
                     self.backgroundColor = .primary80Pressed
@@ -64,6 +68,9 @@ class MainButton: UIButton {
         case .dark:
             self.backgroundColor = .black
             self.setTitleColor(.grayscale5ButtonText, for: .normal)
+        case .gray:
+            self.backgroundColor = .grayscale10Stroke
+            self.setTitleColor(.grayscale80ButtonText2, for: .normal)
         case .light:
             self.backgroundColor = .primary40Echog
             self.setTitleColor(.grayscale80ButtonText2, for: .normal)
