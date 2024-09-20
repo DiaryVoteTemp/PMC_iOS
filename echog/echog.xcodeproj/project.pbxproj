@@ -24,6 +24,7 @@
 		920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A42C9BBC6B00D547FB /* UIImage+.swift */; };
 		920470A92C9BC45B00D547FB /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A82C9BC45B00D547FB /* PopUpView.swift */; };
 		920470AB2C9D47BC00D547FB /* PopUpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470AA2C9D47BC00D547FB /* PopUpProtocol.swift */; };
+		920470AD2C9D626400D547FB /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470AC2C9D626400D547FB /* NicknameViewController.swift */; };
 		920470AF2C9D63B700D547FB /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470AE2C9D63B700D547FB /* NavigationBar.swift */; };
 		920470B12C9DAAD500D547FB /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B02C9DAAD500D547FB /* UILabel+.swift */; };
 		920470B32C9DAD8600D547FB /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B22C9DAD8600D547FB /* UITextField+.swift */; };
@@ -51,6 +52,7 @@
 		920470A42C9BBC6B00D547FB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		920470A82C9BC45B00D547FB /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		920470AA2C9D47BC00D547FB /* PopUpProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpProtocol.swift; sourceTree = "<group>"; };
+		920470AC2C9D626400D547FB /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		920470AE2C9D63B700D547FB /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		920470B02C9DAAD500D547FB /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		920470B22C9DAD8600D547FB /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9204706B2C9A6FC200D547FB /* StartViewController.swift */,
+				920470AC2C9D626400D547FB /* NicknameViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				920470A92C9BC45B00D547FB /* PopUpView.swift in Sources */,
 				920470AB2C9D47BC00D547FB /* PopUpProtocol.swift in Sources */,
 				920470A22C9BB92D00D547FB /* ToastView.swift in Sources */,
+				920470AD2C9D626400D547FB /* NicknameViewController.swift in Sources */,
 				9204706A2C9A6FC200D547FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
