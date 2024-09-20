@@ -17,7 +17,7 @@ enum Font {
         var file: String {
             switch self {
             case .sbAggroMedium:
-                "SB-Aggro-Medium"
+                "OTSBAggroM"
             case .pretendardSemiBold:
                 "Pretendard-SemiBold"
             case .pretendardRegular:
@@ -34,5 +34,6 @@ enum Font {
         case _16 = 16
         case _18 = 18
         case _20 = 20
+        case _60 = 60
     }
 }
