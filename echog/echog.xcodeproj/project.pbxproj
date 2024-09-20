@@ -24,6 +24,7 @@
 		920470A52C9BBC6B00D547FB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A42C9BBC6B00D547FB /* UIImage+.swift */; };
 		920470A92C9BC45B00D547FB /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470A82C9BC45B00D547FB /* PopUpView.swift */; };
 		920470AB2C9D47BC00D547FB /* PopUpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470AA2C9D47BC00D547FB /* PopUpProtocol.swift */; };
+		920470B12C9DAAD500D547FB /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B02C9DAAD500D547FB /* UILabel+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		920470A42C9BBC6B00D547FB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		920470A82C9BC45B00D547FB /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		920470AA2C9D47BC00D547FB /* PopUpProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpProtocol.swift; sourceTree = "<group>"; };
+		920470B02C9DAAD500D547FB /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				920470A42C9BBC6B00D547FB /* UIImage+.swift */,
+				920470B02C9DAAD500D547FB /* UILabel+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				920470812C9A762200D547FB /* Font.swift in Sources */,
 				9204706C2C9A6FC200D547FB /* ViewController.swift in Sources */,
+				920470B12C9DAAD500D547FB /* UILabel+.swift in Sources */,
 				9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */,
 				920470832C9A768200D547FB /* UIFont+.swift in Sources */,
 				9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */,
