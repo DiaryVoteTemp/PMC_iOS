@@ -28,6 +28,7 @@
 		920470AF2C9D63B700D547FB /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470AE2C9D63B700D547FB /* NavigationBar.swift */; };
 		920470B12C9DAAD500D547FB /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B02C9DAAD500D547FB /* UILabel+.swift */; };
 		920470B32C9DAD8600D547FB /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B22C9DAD8600D547FB /* UITextField+.swift */; };
+		920470B52C9DBB7700D547FB /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920470B42C9DBB7700D547FB /* PersonalInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		920470AE2C9D63B700D547FB /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		920470B02C9DAAD500D547FB /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		920470B22C9DAD8600D547FB /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		920470B42C9DBB7700D547FB /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				9204706B2C9A6FC200D547FB /* StartViewController.swift */,
 				920470AC2C9D626400D547FB /* NicknameViewController.swift */,
+				920470B42C9DBB7700D547FB /* PersonalInformationViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				920470B12C9DAAD500D547FB /* UILabel+.swift in Sources */,
 				9204708B2C9A90CA00D547FB /* MainButton.swift in Sources */,
 				920470832C9A768200D547FB /* UIFont+.swift in Sources */,
+				920470B52C9DBB7700D547FB /* PersonalInformationViewController.swift in Sources */,
 				9204709D2C9B2C2200D547FB /* TextButton.swift in Sources */,
 				920470B32C9DAD8600D547FB /* UITextField+.swift in Sources */,
 				920470682C9A6FC200D547FB /* AppDelegate.swift in Sources */,
